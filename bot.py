@@ -21,7 +21,7 @@ class Bot(commands.Bot):
             command_prefix=commands.when_mentioned_or("!"),
             intents=intents
         )
-        self.llm = LLM()  # ← instance partagée
+        self.llm = LLM()  
 
     async def setup_hook(self):
         await self.load_extension("cogs.fun")
