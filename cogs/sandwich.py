@@ -9,10 +9,9 @@ class myCog(commands.Cog):
     async def on_ready(self):
         print("Scheduler pause On")
 
-    @commands.command(name="sandwich", description="Rechercher un emploi sur Jooble Belgique")
-    async def sandwich(self, ctx, *, member: discord.Member = None):
-        member = member or ctx.author
-        await ctx.send("Sandwich")
+    @commands.tree.command(name="sandwich", description="Ekillibre")
+    async def sandwich(interaction: discord.Interaction):
+        await interaction.response.send_message(f"Sandwich")
 
 async def setup(bot: commands.Bot) -> None:
     await bot.add_cog(myCog(bot))
