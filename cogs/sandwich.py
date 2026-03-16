@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+from discord import app_commands  # 1. Added this import
 
 class myCog(commands.Cog):
     def __init__(self, bot: commands.Bot):
@@ -9,9 +10,9 @@ class myCog(commands.Cog):
     async def on_ready(self):
         print("Scheduler pause On")
 
-    @commands.tree.command(name="sandwich", description="Ekillibre")
-    async def sandwich(interaction: discord.Interaction):
-        await interaction.response.send_message(f"Sandwich")
+    @app_commands.command(name="sandwich", description="Ekillibre")
+    async def sandwich(self, interaction: discord.Interaction):
+        await interaction.response.send_message("Sandwich")
 
 async def setup(bot: commands.Bot) -> None:
     await bot.add_cog(myCog(bot))
