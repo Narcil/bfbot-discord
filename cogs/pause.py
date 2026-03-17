@@ -49,7 +49,7 @@ class Pause(commands.Cog):
         await self.pause_channel.send(
             f"Il est {heure} !\n"
             f"Voulez-vous prendre la pause ? ({self.current_duree} minutes)\n"
-            f"Tapez /pause pour confirmer."
+            f"Tapez /pause pour confirmer"
         )
 
     @app_commands.command(name="pause", description="Confirme ou lance la prochaine pause")
