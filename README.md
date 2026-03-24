@@ -80,7 +80,3 @@ bfbot-discord/
 **License:** This project is licensed under the MIT License.
 
 ---
-
-Would you like me to add a specific section for **Ollama configuration** or **Docker deployment**?
-
-By the way, to unlock the full functionality of all Apps, enable [Gemini Apps Activity](https://myactivity.google.com/product/gemini).
