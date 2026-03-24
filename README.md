@@ -2,23 +2,23 @@
 
 A modular Discord bot powered by **discord.py** and **LangChain**. This bot allows users to interact with local or API-based AI models, providing intelligent conversational capabilities and utility tools directly within Discord channels.
 
-## 🚀 Features
+##  Features
 
 The bot is built using **Cogs**, allowing for easy toggling of features. Below are the primary modules included:
 
-### 🧠 AI & Chat (LangChain Integration)
+###  AI & Chat (LangChain Integration)
 * **Contextual Conversations:** Remembers previous messages in a thread for natural, back-and-forth dialogue.
 * **Local LLM Support:** Optimized to work with local AI instances (like Ollama or LocalAI) to keep your data private.
 * **Prompt Templates:** Uses structured templates to ensure the AI follows specific personas or rules.
 
-### 🛠️ Utility Cogs
+###  Utility Cogs
 * **System Monitoring:** Check the bot's latency (ping) and uptime.
 * **Admin Tools:** Commands for reloading cogs on the fly without restarting the entire bot process.
 * **Logging:** Detailed console logging for tracking AI queries and Discord interactions.
 
 ---
 
-## 📋 Requirements
+##  Requirements
 
 * **Python 3.10+**
 * **Discord Bot Token** (via [Discord Developer Portal](https://discord.com/developers/applications))
@@ -26,7 +26,7 @@ The bot is built using **Cogs**, allowing for easy toggling of features. Below a
 
 ---
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 1.  **Clone the Repository:**
     ```bash
@@ -54,7 +54,7 @@ The bot is built using **Cogs**, allowing for easy toggling of features. Below a
 
 ---
 
-## ⌨️ Commands
+##  Commands
 
 | Command | Description |
 | :--- | :--- |
@@ -65,7 +65,7 @@ The bot is built using **Cogs**, allowing for easy toggling of features. Below a
 
 ---
 
-## 🧩 Project Structure
+##  Project Structure
 
 ```text
 bfbot-discord/
@@ -75,8 +75,3 @@ bfbot-discord/
 └── requirements.txt    # Python dependencies
 ```
 
----
-
-**License:** This project is licensed under the MIT License.
-
----
